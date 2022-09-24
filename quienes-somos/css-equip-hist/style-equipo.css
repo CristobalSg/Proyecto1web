@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(31, 31, 31);
+}
+#main {
+  color: white;
+  text-align: center; /* Me deja todo el home centrado*/
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centramos los contenidos*/
+}
+
+.presentacion img {
+  height: 200px; /* Le deminimos tamaño a las img*/
+}
+.sacar-puntitos {
+  list-style: none; /* Sacamos puntitos*/
+}

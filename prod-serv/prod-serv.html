@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>Bokato Sushi</title>
+    <link rel="stylesheet" href="../stylecss/style-header.css" />
+    <link rel="stylesheet" href="stylecss/style.css" />
+    <script src="java.js/func.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="head">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">
+        <img src="../imagenes/Sushi.PNG" alt="" />
+        <h2>Bokato Sushi</h2>
+      </a>
+      <!-- Naigation Bar -->
+      <nav>
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../prod-serv/prod-serv.html" class="nav-link">
+          Productos y Servicios
+        </a>
+        <div class="dropdown">
+          <a href="#" class="nav-link"> Quienes somos</a>
+          <div class="dropdown-content">
+            <a href="../quienes-somos/historia.html" class="nav-link-qsomos">
+              Historia
+            </a>
+            <a href="../quienes-somos/equipo.html" class="nav-link-qsomos">
+              Equipo
+            </a>
+          </div>
+        </div>
+        <a href="../contacto/contacto.html" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+    <!-- seccion prductos -->
+    <main id="main">
+      <div class="titulo-tabla">
+        <h1>Menú</h1>
+      </div>
+      <!-- creacion de la tabla -->
+      <table class="tabla">
+        <thead>
+          <tr>
+            <!--filas-->
+            <th class="izquierda">Producto</th>
+            <th class="izquierda">ingrediente</th>
+            <th class="izquierda">Precio</th>
+          </tr>
+          <!-- contenido de los titulo -->
+        </thead>
+        <tbody class="cont">
+          <tr>
+            <td onclick="evento()" class="text">
+              Handroll frito<img src="imag/1.jpg" alt="handroll frito" />
+            </td>
+            <!--td para las columnas -->
+            <td class="text">panko, cebollín, queso crema, pollo.</td>
+            <td class="text">1500$</td>
+          </tr>
+          <tr>
+            <td onclick="evento()" class="text">
+              20 piezas<img src="imag/3.jpg" alt="20 piezas de sushi" />
+            </td>
+            <td class="text">cebollín, queso crema, carne.</td>
+            <td class="text">5000$</td>
+          </tr>
+
+          <tr>
+            <td onclick="evento()" class="text">
+              kanikama<img src="imag/4.jpg" alt="handroll kamikama" />
+            </td>
+            <td class="text">kanikama, queso crema, cebollín.</td>
+            <td class="text">2000$</td>
+          </tr>
+          <tr>
+            <!-- onclik interacion con java -->
+            <td onclick="evento()" class="text">
+              Handroll frío<img src="imag/2.jpg" alt="handroll frio" />
+            </td>
+            <td class="text">queso crema, pollo, palta, cebollin.</td>
+            <td class="text">4000$</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

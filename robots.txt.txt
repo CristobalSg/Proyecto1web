@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /imagenes/Sushi.png
+Disallow: /quienes-somos/imagenes/
+Disallow: /quienes-somos/

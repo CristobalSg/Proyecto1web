@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <title>Bokato Sushi</title>
+    <link rel="stylesheet" href="../stylecss/style-header.css" />
+    <link rel="stylesheet" href="css-contac/style-contac.css" />
+    <script src="js/funciones.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="head">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">
+        <img src="../imagenes/Sushi.PNG" alt="" />
+        <h2>Bokato Sushi</h2>
+      </a>
+      <!-- Naigation Bar -->
+      <nav>
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../prod-serv/prod-serv.html" class="nav-link">
+          Productos y Servicios
+        </a>
+        <div class="dropdown">
+          <a href="#" class="nav-link"> Quienes somos</a>
+          <div class="dropdown-content">
+            <a href="../quienes-somos/historia.html" class="nav-link-qsomos">
+              Historia
+            </a>
+            <a href="../quienes-somos/equipo.html" class="nav-link-qsomos">
+              Equipo
+            </a>
+          </div>
+        </div>
+        <a href="../contacto/contacto.html" class="nav-link">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <main>
+      <div class="main-div">
+        <h1>Contactanos</h1>
+        <form id="form01" name="form01" onsubmit="evento()">
+          <label for="fname">Primer Nombre</label><br />
+          <input type="text" name="fname" id="fname" /><br />
+          <label for="gmail">Correo</label><br />
+          <input type="text" name="gmail" id="gmail" /><br />
+          <label for="telefono">Numero Celular</label><br />
+          <input type="text" name="telefono" id="telefono" /><br />
+          <input type="submit" value="Enviar" onclick="validacion()" /><br />
+        </form>
+      </div>
+      <section>
+        <h2>Instagram</h2>
+        <div>
+          <img class="logoig" src="imagenes/ig.png" alt=" Logo instagram" />
+        </div>
+        <a href="https://www.instagram.com/cs.colchones/">IG COLCHONES</a>
+        <div>
+          <img class="logoig" src="imagenes/ig.png" alt=" Logo instagram" />
+        </div>
+        <a href="https://www.instagram.com/m_3valenzu_ela/">IG MATIAS</a>
+      </section>
+      <div>
+        <h1 id="despedida">Muchas gracias por la confianza :)</h1>
+        <img id="uwu" src="imagenes/uwu.jpg" alt="uwu" />
+      </div>
+      <script src="js/preventDefault.js"></script>
+    </main>
+  </body>
+</html>

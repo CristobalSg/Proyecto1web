@@ -1,0 +1,67 @@
+body {
+  margin: 0; /* Sacamos bordes feos*/
+  background-color: rgb(255, 106, 80);
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none; /* Le sacamos la decoration*/
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Centramos el logo*/
+}
+
+.logo img {
+  height: 43px; /* Tamaño imagen*/
+  margin-right: 10px;
+}
+
+header {
+  display: flex;
+  height: 40px; /* Tamaño header */
+  background-color: rgb(49, 49, 49);
+  justify-content: space-between; /* Se separan los <a> */
+  align-items: center; /* Centrar los elementos*/
+  padding: 5px; /* Separamos un poco*/
+}
+
+.nav-link {
+  font-weight: 600; /* hacemos negritas a <a>*/
+  padding-right: 10px; /* Separamos un poco*/
+}
+
+.nav-link:hover {
+  background-color: rgb(73, 73, 73);
+  border-left: 5px solid white;
+}
+
+/* Links de quienes somos*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none; /* No se muestra para del hover*/
+  position: absolute;
+  padding: 10px; /* Separamos un poco*/
+  background-color: #474747;
+  min-width: 130px; /* Porte div */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Sombra */
+  border-radius: 7px;
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-link-qsomos:hover {
+  background-color: tomato;
+  border-radius: 7px;
+}
